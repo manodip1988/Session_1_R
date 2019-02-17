@@ -1,0 +1,23 @@
+1. Please mention true or false for the below statements:
+a) Prescriptive Analytics is used to predict the future outcomes
+b) Base R packages are installed automatically
+
+
+Ans:-
+a) False - Predictive Analytics is used to predict the future outcomes, while Prescriptive Analytics is used to
+           optimize techniques and suggests what is to be done to optimize results.
+b) True -  Base R packages are installed automatically. Example - mtcars, airquality etc.
+
+2. What is Recycling of elements in a vector?
+   R likes to operate on vectors of the same length, so if it encounters two vectors of different lengths 
+   in a binary operation, it merely replicates (recycles) the smaller vector until it is the same length as 
+   the longest vector,then it does the operation.
+
+3. Give an example of recycling of elements.
+   For example if we make two vectors, x and Y, where x<-(1:10), and y<-(25:30),
+   Now if we bind of x and y columnwise i.e. cbind(x,y), we will find numbers in y column will start to repeat itself.
+   R script:-
+   x<-(1:10)
+   y<-(25:30)
+   cbind(x,y)
+	
